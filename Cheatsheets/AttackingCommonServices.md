@@ -14,7 +14,7 @@
 |-|-|
 | `smbclient -N -L //10.129.14.128` | Null-session testing against the SMB service. |
 | `smbmap -H 10.129.14.128 -p 445` | Network share enumeration using `smbmap`. |
-| `smbmap -H 10.129.14.128 -r notes` | Recursive network share enumeration using `smbmap`. |
+| `smbmap -H 10.129.14.128 -R notes` | Recursive network share enumeration using `smbmap`. |
 | `smbmap -H 10.129.14.128 --download "notes\note.txt"` | Download a specific file from the shared folder. |
 | `smbmap -H 10.129.14.128 --upload test.txt "notes\test.txt"` | Upload a specific file to the shared folder. |
 | `rpcclient -U'%' 10.10.110.17` | Null-session with the `rpcclient`. |

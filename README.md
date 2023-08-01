@@ -1,2 +1,1 @@
 # Shockp
-Pentester always learning.

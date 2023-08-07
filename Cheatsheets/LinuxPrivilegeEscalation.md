@@ -18,6 +18,7 @@
 | `./pspy64 -pf -i 1000` | View running processes with `pspy` |
 | `find / -user root -perm -4000 -exec ls -ldb {} \; 2>/dev/null` | Find binaries with the SUID bit set |
 | `find / -user root -perm -6000 -exec ls -ldb {} \; 2>/dev/null` | Find binaries with the SETGID bit set |
+| `getcap -r / 2>/dev/null` | Find binaries with capabilities |
 | `sudo /usr/sbin/tcpdump -ln -i ens192 -w /dev/null -W 1 -G 1 -z /tmp/.test -Z root` | Priv esc with `tcpdump` |
 | `echo $PATH` | Check the current user's PATH variable contents |
 | `PATH=.:${PATH}` | Add a `.` to the beginning of the current user's PATH |

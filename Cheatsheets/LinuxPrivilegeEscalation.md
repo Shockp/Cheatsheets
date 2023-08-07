@@ -4,6 +4,7 @@
 | `ps aux \| grep root` | See processes running as root |
 | `ps au` | See logged in users |
 | `ls /home` | View user home directories |
+| `ls -l /` | Check permisssions in / |
 | `ls -l ~/.ssh` | Check for SSH keys for current user |
 | `history` | Check the current user's Bash history |
 | `sudo -l` | Can the user run anything as another user? |

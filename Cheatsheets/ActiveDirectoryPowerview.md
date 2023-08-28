@@ -8,6 +8,7 @@
 | `.\SharpView.exe Get-Domain` | View information about the current domain |
 | `.\SharpView.exe Get-DomainOU` | List all OUs |
 | `.\SharpView.exe Get-DomainUser -KerberosPreauthNotRequired` | Find ASREPRoastable users |
+| `.\SharpView.exe Get-DomainUser -TrustedToAuth` | Find Kerberos Constrained Delegation users |
 | `Get-DomainComputer ` | Get a listing of domain computers |
 | `.\SharpView.exe Get-DomainGPO  \| findstr displayname` | List all GPO names |
 | ` Get-DomainGPO -ComputerIdentity WS01` | List GPOs on a specific host |

